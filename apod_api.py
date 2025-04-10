@@ -2,7 +2,7 @@ import requests
 
 def main():
     """Test the functions in this module."""
-    apod_date = "2024-04-16"
+    apod_date = "2025-04-10"
     apod_info = get_apod_info(apod_date)
     if apod_info:
         url = get_apod_image_url(apod_info)
